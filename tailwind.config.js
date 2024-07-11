@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily:{
         signature: ["Great Vibes"],
+        raleway: ["Raleway"],
       }
     },
   },
