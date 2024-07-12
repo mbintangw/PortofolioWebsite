@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="fixed z-50 w-full">
-      <div className="contianer flex items-center justify-between px-4 py-5 mx-auto">
+      <div className=" flex items-center justify-between px-4 py-5 mx-auto">
         <div>
           <h1 className="font-signature text-3xl text-[#DCA63D]">Bintang</h1>
         </div>
