@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className="flex gap-6 justify-end items-center flex-1 font-bold text-3xl text-white [&>li]:cursor-pointer">
           <li>
             <Link to="home" smooth={true} activeClass="text-blue-500">
-              Home
+              About
             </Link>
           </li>
           <li>Projects</li>
