@@ -8,9 +8,7 @@
     font-family: "Raleway", sans-serif;
   }
 
-  body {
-    @apply bg-black;
-  }
+
 }
 
 .card-socialmedia {
