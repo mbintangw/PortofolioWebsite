@@ -8,9 +8,11 @@
     font-family: "Raleway", sans-serif;
   }
 
-
+  body {
+    @apply bg-background;
+  }
 }
 
 .card-socialmedia {
-  @apply cursor-pointer p-2 rounded-md shadow-2xl bg-black/50 backdrop-blur-2xl
+  @apply cursor-pointer p-2 lg:p-4 rounded-full shadow-2xl bg-stroke;
 }

@@ -2,18 +2,20 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const Hero = () => {
   return (
-    <main className=" flex flex-col justify-center bg-hero-pattern w-full h-screen bg-cover text-white mx-auto ">
+    <main className=" flex flex-col justify-center bg-highlight w-full h-screen bg-cover text-white mx-auto ">
       <div className="flex flex-col items-center justify-center mx-auto h-full font-bold">
-        <h1 className=" text-[50px]">Hello, I'm</h1>
-        <h1 className="font-signature text-[100px] tracking-widest ">
+        <h1 className="text-[25px] md:text-[50px]">Hello, I'm</h1>
+        <h1 className="font-signature text-[50px] md:text-[80px] lg:text-[100px] tracking-widest text-center ">
           Mohammad Bintang Wicaksono
         </h1>
       </div>
 
-      <div className="flex gap-10 text-[60px] pl-[77px] pb-[30px]">
+      <img src="/images/cloud.png" className="h-[150px] lg:h-[300px]" />
+
+      <div className="flex gap-2 lg:gap-10 text-[30px] lg:text-[60px] absolute bottom-5 lg:left-60 left-7 md:left-24 ">
         <div className="card-socialmedia">
           <a href="https://github.com/mbintangw">
-            <FaGithub className="text-[60px]" />
+            <FaGithub className="" />
           </a>
         </div>
         <div className="card-socialmedia">
@@ -26,8 +28,9 @@ const Hero = () => {
           <MdEmail />
           </a>
         </div>
-
       </div>
+
+      
     </main>
   );
 };
