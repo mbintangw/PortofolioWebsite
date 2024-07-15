@@ -1,10 +1,9 @@
-import Navbar from "../Components/Navbar"
-
+import Hero from "../Components/Hero"
 
 const HomePage = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className="flex flex-col">
+      <Hero/>
     </div>
   )
 }

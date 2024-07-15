@@ -12,3 +12,7 @@
     @apply bg-black;
   }
 }
+
+.card-socialmedia {
+  @apply cursor-pointer p-2 rounded-md shadow-2xl bg-black/50 backdrop-blur-2xl
+}

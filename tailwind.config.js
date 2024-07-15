@@ -9,7 +9,10 @@ export default {
       fontFamily:{
         signature: ["Great Vibes"],
         raleway: ["Raleway"],
-      }
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/images/Cloud.jpg')",
+      },
     },
   },
   plugins: [],
