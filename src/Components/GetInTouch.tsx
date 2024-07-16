@@ -4,12 +4,12 @@ import { MdEmail } from "react-icons/md";
 const GetInTouch = () => {
   return (
     <main className="flex flex-col gap-10 h-screen justify-center items-center">
-      <div className="space-y-5">
+      <div className="space-y-5 mx-10 text-center">
         <h1 className="text-center text-5xl text-headline font-bold">Get In Touch</h1>
-        <h2>Do you have any job vacancies? Just contact me with this media below</h2>
+        <h2 className="text-xl">Do you have any job vacancies? Just contact me with this media below</h2>
       </div>
 
-      <div className="flex flex-row gap-10">
+      <div className="flex flex-col md:flex-row gap-10">
         <div className="flex justify-center items-center gap-4 p-4 shadow-highlight shadow-2xl border rounded-xl">
         
         <FaWhatsapp className="text-4xl"/>
