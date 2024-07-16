@@ -19,6 +19,7 @@ export default {
         'background': '#fffffe',
         'highlight': '#3da9fc',
         'stroke' : '#094067',
+        'tertiary' : '#ef4565',
       }
     },
   },

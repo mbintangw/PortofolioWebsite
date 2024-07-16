@@ -32,12 +32,12 @@ const Project = () => {
           <div className="bg-stroke text-white p-10 rounded-lg shadow-lg w-[500px] h-[500px] md:h-[80%] md:w-2/3 lg:w-1/3 overflow-y-auto md:overflow-hidden">
             <div className="flex justify-between">
               <h2 className="text-3xl font-bold mb-4">{selectedProject.name}</h2>
-              <IoCloseSharp className="cursor-pointer text-3xl text-red-800" onClick={() => setSelectedProject(null)} />
+              <IoCloseSharp className="cursor-pointer text-3xl text-tertiary" onClick={() => setSelectedProject(null)} />
             </div>
             <img src={selectedProject.poster_path} className="w-full h-64 object-cover mb-4" />
             <p className="mb-4 text-justify text-md md:text-xl text-white/70 ">{selectedProject.description}</p>
             <div className="space-x-4">
-              <button className="bg-highlight text-white px-4 py-2 rounded" onClick={() => setSelectedProject(null)}>Close</button>
+              <button className="bg-tertiary text-white px-4 py-2 rounded" onClick={() => setSelectedProject(null)}>Close</button>
               <button className="bg-highlight text-white px-4 py-2 rounded" onClick={() =>  window.open(selectedProject.website_url, '_blank')} > Demo </button>
             </div>
             
