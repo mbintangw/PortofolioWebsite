@@ -9,7 +9,7 @@ const Project = () => {
   return (
     <main className="flex flex-col h-screen justify-center items-center gap-20">
       <div>
-        <h1 className="md:text-3xl text-xl text-headline font-bold">Project</h1>
+        <h1 className="md:text-5xl text-xl text-headline font-bold">Project</h1>
       </div>
 
       <div className="grid gird-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-20 justify-center mx-10">
