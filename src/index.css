@@ -21,3 +21,7 @@
   @apply relative rounded-3xl -skew-x-3 hover:skew-x-0 -translate-y-6  hover:-translate-y-1 hover:-translate-x-0 duration-500   transition-all [box-shadow:12px_12px_#094067] hover:[box-shadow:4px_4px_white] cursor-pointer ;
 
 }
+
+.card-skill {
+  @apply border-2 border-highlight hover:bg-highlight relative  max-w-64  p-10 rounded-xl;
+}
