@@ -16,3 +16,8 @@
 .card-socialmedia {
   @apply cursor-pointer p-2 lg:p-4 rounded-full shadow-2xl bg-stroke;
 }
+
+.card-project {
+  @apply relative rounded-3xl -skew-x-3 hover:skew-x-0 -translate-y-6  hover:-translate-y-1 hover:-translate-x-0 duration-500   transition-all [box-shadow:12px_12px_#094067] hover:[box-shadow:4px_4px_white] cursor-pointer ;
+
+}
