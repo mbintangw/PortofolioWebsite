@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Moxvie",
+    "poster_path": "/images/Project/Moxvie.png",
+    "website_url": "https://moxvie.netlify.app/",
+    "github_url": "https://github.com/mbintangw/movie-search-app",
+    "description": " Moxvie is an online platform that offers access to information regarding the trending ratings of movies and TV shows worldwide. With an intuitive and user-friendly interface, users can easily browse through a diverse collection of films, ranging from the latest releases to all-time classics. Moxvie provides a variety of film genres, including action, comedy, drama, science fiction, horror, and many more, catering to the diverse tastes and preferences of audiences."
+  },
+  {
+    "id" : 2,
+    "name": "TheMemorize",
+    "poster_path": "/images/Project/Thememorize.png",
+    "website_url": "https://thememorize.netlify.app/",
+    "github_url": "https://github.com/mbintangw/TheMemoriez",
+    "description": " TheMemorize is an online platform that challenges users to test and enhance their memory strength through engaging and captivating games. With a simple yet demanding concept, this website provides a variety of puzzle games and memory tests designed to stimulate the brain and improve users' cognitive abilities."
+  },
+  {
+    "id": 3,
+    "name": "Furniro",
+    "poster_path": "/images/Project/Furniro.png",
+    "website_url": "https://furnir.netlify.app/",
+    "github_url": "https://github.com/mbintangw/TheMemoriez",
+    "description": " Furniro is an online platform offering a wide range of high-quality furniture for homes and offices. Our selection includes chairs, tables, lamps, and interior decor designed to enhance both aesthetics and comfort. With a user-friendly interface, you can easily browse our collection, find products that match your style and budget, and enjoy a seamless shopping experience. Furniro is committed to providing the best service with top-quality products and reliable delivery. Discover your interior design inspiration with Furnir!"
+  }
+]
