@@ -51,11 +51,12 @@ const Skill = () => {
         </h1>
 
         <div className="flex flex-wrap justify-center items-center mt-12 gap-10">
-          {skills.map((skill) => (
+          {skills.map((skill,index) => (
             <button
               onClick={() => handleButtonClick(skill.url)}
               title={skill.name}
               className="card-skill"
+              key={index}
             >
               {skill.icon}
             </button>
