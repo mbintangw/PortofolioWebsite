@@ -15,26 +15,52 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-7 py-5 mx-auto">
         <div>
           <h1 className="font-signature text-5xl text-white cursor-pointer">
-            <Link to="Home" smooth={true} spy={true}>Bintang</Link>
-            </h1>
+            <Link to="Home" smooth={true} spy={true}>
+              Bintang
+            </Link>
+          </h1>
         </div>
         <ul className="hidden lg:flex gap-6 justify-end items-center flex-1 font-bold text-3xl text-white [&>li]:cursor-pointer">
           <li>
-            <Link to="About" smooth={true} spy={true} activeClass="text-blue-500">
+            <Link
+              to="About"
+              smooth={true}
+              spy={true}
+              activeClass="text-blue-500"
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="Project" smooth={true} spy={true} activeClass="text-blue-500">
+            <Link
+              to="Project"
+              smooth={true}
+              spy={true}
+              activeClass="text-blue-500"
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="Skill" smooth={true} spy={true} activeClass="text-blue-500">
+            <Link
+              to="Skill"
+              smooth={true}
+              spy={true}
+              activeClass="text-blue-500"
+            >
               Skill
             </Link>
           </li>
-          <li>Resume</li>
+          <li>
+            <a
+              href={"/Resume.pdf"}
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer hover:text-blue-500"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="lg:hidden">
@@ -50,31 +76,52 @@ const Navbar = () => {
             />
           )}
         </div>
-
       </div>
       {modalOpen && (
-          <ul className="lg:hidden flex flex-col gap-6 -mt-20 justify-center items-center  font-bold text-3xl text-white [&>li]:cursor-pointer h-dvh ">
-            <li>
-              <Link to="About" smooth={true} spy={true} activeClass="text-blue-500">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="Project" smooth={true} spy={true} activeClass="text-blue-500">
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="Skill" smooth={true} spy={true} activeClass="text-blue-500">
-                Skill
-              </Link>
-            </li>
-            <li>Resume</li>
-          </ul>
-        )}
-      
+        <ul className="lg:hidden flex flex-col gap-6 -mt-20 justify-center items-center  font-bold text-3xl text-white [&>li]:cursor-pointer h-dvh ">
+          <li>
+            <Link
+              to="About"
+              smooth={true}
+              spy={true}
+              activeClass="text-blue-500"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="Project"
+              smooth={true}
+              spy={true}
+              activeClass="text-blue-500"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="Skill"
+              smooth={true}
+              spy={true}
+              activeClass="text-blue-500"
+            >
+              Skill
+            </Link>
+          </li>
+          <li>
+            <a
+              href={"/Resume.pdf"}
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer hover:text-blue-500"
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
+      )}
     </nav>
-    
   );
 };
 
