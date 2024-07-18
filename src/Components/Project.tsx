@@ -7,7 +7,7 @@ const Project = () => {
   useEffect(() => { document.body.style.overflow = selectedProject ? 'hidden' : 'auto'; }, [selectedProject]);
 
   return (
-    <main className="flex flex-col h-screen justify-center items-center gap-20">
+    <main className="flex flex-col h-screen justify-center items-center gap-20" id="Project">
       <div>
         <h1 className="text-5xl text-headline font-bold">Project</h1>
       </div>

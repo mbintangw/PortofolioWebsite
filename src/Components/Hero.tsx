@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const Hero = () => {
   return (
-    <main className=" flex flex-col justify-center bg-highlight w-full h-screen bg-cover text-white mx-auto ">
+    <main className=" flex flex-col justify-center bg-highlight w-full h-screen bg-cover text-white mx-auto" id="Home">
       <div className="flex flex-col items-center justify-center mx-auto h-full font-bold">
         <h1 className="text-[25px] md:text-[50px]">Hello, I'm</h1>
         <h1 className="font-signature text-[50px] md:text-[80px] lg:text-[100px] tracking-widest text-center ">

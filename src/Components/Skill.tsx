@@ -44,7 +44,7 @@ const Skill = () => {
   };
 
   return (
-    <main id="SkillList" className="h-screen flex justify-center items-center">
+    <main id="Skill" className="h-screen flex justify-center items-center">
       <div className="flex flex-col mx-auto gap-10">
         <h1 className="text-center text-5xl text-headline font-bold">
           My Skills
